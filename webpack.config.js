@@ -20,8 +20,4 @@ module.exports = {
       extractComments: false,
     })],
   },
-  externals: {
-    'cornerstone-core': 'cornerstone',
-    'cornerstone-tools': 'cornerstoneTools',
-  }
 };
