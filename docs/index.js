@@ -2,9 +2,9 @@
 
 
 const imageIds = [
-    "wadouri:https://https://ibrahimcsae.github.io/cornerstonetools-thresholdbrush/data/case2a_001.dcm",
-    "wadouri:https:/https://ibrahimcsae.github.io/cornerstonetools-thresholdbrush/data/case2a_002.dcm",
-    "wadouri:https:/https://ibrahimcsae.github.io/cornerstonetools-thresholdbrush/data/case2a_003.dcm",
+    "wadouri:https://ibrahimcsae.github.io/cornerstonetools-thresholdbrush/data/case2a_001.dcm",
+    "wadouri:https://ibrahimcsae.github.io/cornerstonetools-thresholdbrush/data/case2a_002.dcm",
+    "wadouri:https://ibrahimcsae.github.io/cornerstonetools-thresholdbrush/data/case2a_003.dcm",
   ]
   
   function _init() {
