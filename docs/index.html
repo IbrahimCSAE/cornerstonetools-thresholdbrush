@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Quick Test Page</title>
+    <style>
+      html,
+      body {
+        background: dodgerblue;
+      }
+      .cornerstone-element {
+        width: 512px;
+        height: 512px;
+        margin: 0 auto;
+        background: #ccc;
+      }
+    </style>
+
+    <!-- peerDependencies -->
+    
+    <!-- Our Plugin -->
+  </head>
+  <body>
+    Mouse Bindings: <br>
+    <li>Left button: syncbrush </li>
+    <li>Right button: move crosshairs </li>
+    <li>Wheel: stack scroll </li>
+    <br>
+    <section>
+      <div
+        id='axial'
+        class="cornerstone-element"
+        oncontextmenu="return false"
+        style='width: 400px; height: 400px; float: left;'
+      >INPUT axial
+      </div>
+    </section>
+  </body>
+  <script src="https://unpkg.com/hammerjs@2.0.8/hammer.js"></script>
+  <script src="https://unpkg.com/dicom-parser@1.8.3/dist/dicomParser.min.js"></script>
+  <script src="https://unpkg.com/cornerstone-core"></script>
+  <script src="https://unpkg.com/cornerstone-math"></script>
+  <script src="https://unpkg.com/cornerstone-wado-image-loader"></script>
+  <script src="https://unpkg.com/cornerstone-tools"></script>
+  <script src="https://unpkg.com/cornerstonetools-thresholdbrush@1.0.17"></script>
+  <script src="./index.js"></script>
+</html>

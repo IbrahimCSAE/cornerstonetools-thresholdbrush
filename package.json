@@ -1,10 +1,22 @@
 {
   "name": "cornerstonetools-thresholdbrush",
-  "version": "1.0.3",
+  "version": "1.0.17",
   "description": "A brush tool that allows you to set a low and high threshold range in HU units while drawing segmentations.",
-  "main": "src/index.js",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.33.2",
+    "webpack-cli": "^4.6.0",
+    "cornerstone-tools": "6.0.1",
+    "lodash": "^4.17.21"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IbrahimCSAE/cornerstonetools-thresholdbrush.git"
   },
   "keywords": [
     "cornerstonetools",
@@ -19,8 +31,11 @@
   ],
   "author": "Ibrahim Mohamed <ibrahim.mdev@gmail.com>",
   "license": "MIT",
-  "dependencies": {
-    "cornerstone-core": "^2.6.1",
-    "cornerstone-tools": "^6.0.8"
-  }
+  "bugs": {
+    "url": "https://github.com/IbrahimCSAE/cornerstonetools-thresholdbrush/issues"
+  },
+  "homepage": "https://github.com/IbrahimCSAE/cornerstonetools-thresholdbrush#readme",
+  "files": [
+    "dist/index.js"
+  ]
 }
