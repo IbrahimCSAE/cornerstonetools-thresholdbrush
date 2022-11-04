@@ -1,6 +1,6 @@
 {
   "name": "cornerstonetools-thresholdbrush",
-  "version": "1.0.17",
+  "version": "1.0.20",
   "description": "A brush tool that allows you to set a low and high threshold range in HU units while drawing segmentations.",
   "main": "dist/index.js",
   "devDependencies": {
