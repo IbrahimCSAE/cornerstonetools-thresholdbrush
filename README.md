@@ -45,12 +45,12 @@ brushThreshold.thresholdHigh = 150
 ```
 ## Common thresholds to get you started
 
-Left Psoas : [-29, 150]
-Right Psoas : [-29, 150]
-Muscle : [-29, 150]
-Sub Fat : [-190, -30]
-Vis Fat : [-190, -30]
-Bone : [200, 1000]
+Left Psoas : [-29, 150]<br>
+Right Psoas : [-29, 150]<br>
+Muscle : [-29, 150]<br>
+Sub Fat : [-190, -30]<br>
+Vis Fat : [-190, -30]<br>
+Bone : [200, 1000]<br>
 
 
 ## LICENSE
