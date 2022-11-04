@@ -2,9 +2,9 @@
 
 
 const imageIds = [
-    "wadouri:https://plantarflex.github.io/cornerstoneTools-SyncBrushTool/data/case2a_001.dcm",
-    "wadouri:https://plantarflex.github.io/cornerstoneTools-SyncBrushTool/data/case2a_002.dcm",
-    "wadouri:https://plantarflex.github.io/cornerstoneTools-SyncBrushTool/data/case2a_003.dcm",
+    "wadouri:https://https://ibrahimcsae.github.io/cornerstonetools-thresholdbrush/data/case2a_001.dcm",
+    "wadouri:https:/https://ibrahimcsae.github.io/cornerstonetools-thresholdbrush/data/case2a_002.dcm",
+    "wadouri:https:/https://ibrahimcsae.github.io/cornerstonetools-thresholdbrush/data/case2a_003.dcm",
   ]
   
   function _init() {
