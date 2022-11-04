@@ -8,7 +8,7 @@ module.exports = {
     filename: 'index.js',
     path: path.resolve(__dirname, 'dist'),
     library: {
-      name: 'SyncBrushTool',
+      name: 'ThresholdBrush',
       type: 'umd',
       umdNamedDefine: true,
       export: 'default',

@@ -56,7 +56,7 @@ const imageIds = [
     cornerstoneTools.setToolActive("StackScrollMouseWheel", {
       mouseButtonMask: 0,
     })
-    cornerstoneTools.addToolForElement(element, ThresholdBrushTool)
+    cornerstoneTools.addToolForElement(element, ThresholdBrush)
     cornerstoneTools.setToolActiveForElement(element, "ThresholdBrush", { configuration: {thresholdLow: 200, thresholdHigh: 1000} })
     return Promise.all(
       imageIds.map((imageId) => cornerstone.loadAndCacheImage(imageId)),
