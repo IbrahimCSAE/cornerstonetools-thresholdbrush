@@ -1,0 +1,26 @@
+{
+  "name": "cornerstonetools-thresholdbrush",
+  "version": "1.0.3",
+  "description": "A brush tool that allows you to set a low and high threshold range in HU units while drawing segmentations.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cornerstonetools",
+    "cornerstone",
+    "cornerstone3D",
+    "brush",
+    "cornerstonetools-brush",
+    "medical",
+    "dicom",
+    "dicomweb",
+    "series"
+  ],
+  "author": "Ibrahim Mohamed <ibrahim.mdev@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cornerstone-core": "^2.6.1",
+    "cornerstone-tools": "^6.0.8"
+  }
+}
